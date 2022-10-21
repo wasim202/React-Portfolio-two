@@ -10,7 +10,7 @@ export default function Navigation() {
         <Container>
           {/* <Navbar.Brand href="#home">Navbar</Navbar.Brand> */}
           <Nav className="me-auto">
-          <Link className="text-dark" to="/Home">
+          <Link className="text-dark" to="/">
               <Nav.Link href='Home'>Home</Nav.Link>
             </Link>
             <Link className="text-dark" to="/Portfolio">

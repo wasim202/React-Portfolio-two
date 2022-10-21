@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Container} from 'react-bootstrap';
+import {Card, Container, Row, Col} from 'react-bootstrap';
 import FiveGuys from './Five-Guys.png';
 import MovieDB from './Movie-Database.png';
 import HomePage from './home-page.png';
@@ -7,10 +7,11 @@ import ViewTables from './view-tables.png'
 
 export default function Portfolio() {
   return (
-    
-    <>
+ 
     <Container>
-      <Card sm ="6">
+      <Row>
+        <Col lg={6}>
+      <Card>
         <Card.Img style={{}} variant="top" src={FiveGuys} />
         <Card.Body>
           <Card.Text>
@@ -21,6 +22,8 @@ export default function Portfolio() {
           </Card.Text>
         </Card.Body>
       </Card>
+      </Col>
+      <Col lg={6}>
       <Card>
         <Card.Img variant="top" src={MovieDB} />
         <Card.Body>
@@ -32,6 +35,8 @@ export default function Portfolio() {
           </Card.Text>
         </Card.Body>
       </Card>
+      </Col>
+      <Col lg={6}>
       <Card>
         <Card.Img variant="top" src={HomePage} />
         <Card.Body>
@@ -43,6 +48,8 @@ export default function Portfolio() {
           </Card.Text>
         </Card.Body>
       </Card>
+      </Col>
+      <Col lg={6}>
       <Card>
         <Card.Img variant="top" src={ViewTables} />
         <Card.Body>
@@ -54,8 +61,10 @@ export default function Portfolio() {
           </Card.Text>
         </Card.Body>
       </Card>
+      </Col>
+      </Row>
       </Container>
-    </>
+    
     
   )
 }

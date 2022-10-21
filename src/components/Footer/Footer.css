@@ -1,6 +1,6 @@
-body{
+/* body{
     display:flex;
-}
+} */
 .my_links {
     display: flex;
 }
@@ -9,6 +9,10 @@ body{
     height: 30px;
 }
 
-nav{
+/* nav{
     margin-top: auto;
-}
+} */
+/* .footer{
+    position: absolute;
+    bottom: 0;
+} */

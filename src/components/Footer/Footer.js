@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import github from '../../images/github.png';
 import linkedin from '../../images/linkedin.png';
-//import Footer from '/Footer.css';
+import './Footer.css';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -28,7 +28,7 @@ function Footer(){
 //     </Row>
 // </div>
 // </nav>
-<nav className="navbar navbar-expand-lg mt-auto navbar-dark bg-dark">
+<nav className="footer navbar navbar-expand-lg mt-auto navbar-dark bg-dark">
       <div className="container-fluid">
         <a
           className="navbar-brand"

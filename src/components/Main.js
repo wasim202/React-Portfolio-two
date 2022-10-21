@@ -9,7 +9,7 @@ import Resume from '../Pages/Resume/Resume'
 export default function main() {
   return (
    <Routes>
-    <Route path='/Home' exact element={<Home/>}/>
+    <Route path='/' exact element={<Home/>}/>
     <Route path='/Portfolio' exact element={<Portfolio/>}/>
     <Route path='/ContactMe' exact element={<ContactMe/>}/>
     <Route path='/Resume' exact element={<Resume/>}/>
