@@ -1,18 +1,56 @@
-/* body{
-    display:flex;
-} */
-.my_links {
-    display: flex;
+@import "../../utils/colors.css";
+
+.footer {
+  display: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+  margin-top: 10vh;
 }
-.github a {
-    width: 30px;
-    height: 30px;
+.footerH3 {
+  font-family: "Petit Formal Script";
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.footerIconDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  height: fit-content;
+}
+.iconAnchor {
+  display: flex;
+}
+.iconAnchor svg {
+  margin: 1rem 1.5rem 0 1.5rem;
+  padding: 1rem 1.5rem 0 1.5rem;
+  font-size: 8vw;
 }
 
-/* nav{
-    margin-top: auto;
-} */
-/* .footer{
-    position: absolute;
-    bottom: 0;
-} */
+.footer-icon {
+  color: var(--dark3);
+  font-size: 3rem;
+  margin: 3rem;
+  width: 100%;
+}
+
+.footer-icon:hover {
+  color: var(--dark1);
+}
+
+@media only screen and (max-width: 1200px) {
+    .iconAnchor svg {
+      font-size: 5rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .iconAnchor svg {
+      font-size: 4rem;
+      margin: 1rem 1rem 0 1rem;
+      padding: 1rem 1rem 0 1rem;
+    }
+  }

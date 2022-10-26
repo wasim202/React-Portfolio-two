@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
 import github from '../../images/github.png';
 import linkedin from '../../images/linkedin.png';
 import './Footer.css';
@@ -9,30 +10,29 @@ import Col from 'react-bootstrap/Col';
 
 function Footer(){
     return(
-//<div className="footer navbar navbar-expand-lg mt-auto navbar-dark bg-dark">
-<div className="col-sm-12 d-flex justify-content-center pt-4">
-      {/* <div className="container-fluid"> */}
+      <div className="footer" id="footer">
+      
+      <div className="footerIconDiv">
+        {/* GitHub icon link */}
         <a
-          //className="navbar-brand"
+          title="GitHub Profile"
+          target="_blank"
           href="https://github.com/wasim202"
-          target="_blank"
+          className="iconAnchor"
         >
-          <a href='https://github.com/wasim202'>
-          <img src={github} alt='GitHub profile'></img>
+          <FaGithub className="footer-icon" />
         </a>
-        </a>
-        <a
-          //className="navbar-brand"
-          href="https://www.linkedin.com/in/wasim-mohammad-22a53590/"
+         {/* LinkedIn icon link */}
+         <a
+          title="LinkedIn Profile"
           target="_blank"
+          href="https://www.linkedin.com/in/becca-roberts/"
+          className="iconAnchor"
         >
-          <a href='https://www.linkedin.com/in/wasim-mohammad-22a53590/'>
-             <img src={linkedin} alt='LinkedIn profile'></img>
-         </a>
+          <FaLinkedin className="footer-icon" />
         </a>
-    
+        </div>
       </div>
-    //</div>
     );
 }
 

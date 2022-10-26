@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color:green;
     background-color: #444444;
 
@@ -24,10 +24,27 @@ body{
   
   p {
     text-align: center;
-  }
-  
+  }*/
+/*   
   #profile {
     max-width: 250px;
     border-radius: 6px;
     margin-top: 50px;
+  }  */
+
+  .m-3{
+    text-align: center;
+  }
+  #main-paragraph{
+    padding-top: 100px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+  }
+  #profile{
+    width:300px;
+    height:500px;
+    object-fit:cover;
+    border-radius:50%;
+    padding-top: 50px;
   }

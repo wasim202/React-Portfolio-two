@@ -2,6 +2,7 @@ import React from 'react'
 import emailjs from 'emailjs-com';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import { Container } from 'react-bootstrap';
 
 export default function ContactUs() {
 
@@ -17,17 +18,17 @@ export default function ContactUs() {
 }
 
 return (
+  <Container>
+    <h1 className='m-3'>Contact Me</h1>
   <div className='container d-flex flex-column min vh-100'>
   <form className="contact-form" onSubmit={sendEmail}>
+
 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
 <Form.Label>Name</Form.Label>
-{/* <input type="text" name="from_name" /> */}
 <Form.Control type="input" name="from_name" placeholder="Ex: John Smith" />
 </Form.Group>
 
 <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
-{/* <label>Email</label>
-<input type="email" name="reply_to" /> */}
 <Form.Label>Email</Form.Label>
 <Form.Control type="email" name="reply_to" placeholder="name@example.com" />
 </Form.Group>
@@ -39,15 +40,15 @@ return (
 
 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
 <Form.Label>Message</Form.Label>
-{/* <textarea name="message" /> */}
 <Form.Control as="textarea" name="message"  rows={3} />
 </Form.Group>
-{/* <input type="submit" value="Send" /> */}
+
 <Button variant="primary" type="submit" value="send">
       Submit
 </Button>
 </form> 
 </div>
+</Container>
 );
 }
 
