@@ -1,9 +1,9 @@
 import React from 'react';
 import {Card, Container, Row, Col} from 'react-bootstrap';
-import FiveGuys from './Five-Guys.png';
-import MovieDB from './Movie-Database.png';
-import HomePage from './home-page.png';
-import ViewTables from './view-tables.png'
+import FiveGuys from '../../images/Five-Guys.png';
+import MovieDB from '../../images/Movie-Database.png';
+import HomePage from '../../images/home-page.png';
+import ViewTables from '../../images/view-tables.png'
 
 export default function Portfolio() {
   return (

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
-import Home from '../Pages/Home'
+import Home from '../Pages/Home/Home'
 import Portfolio from '../Pages/Portfolio/Portfolio'
-import ContactMe from '../Pages/ContactMe'
+import ContactMe from '../Pages/ContactMe/ContactMe'
 import Resume from '../Pages/Resume/Resume'
 
 export default function main() {

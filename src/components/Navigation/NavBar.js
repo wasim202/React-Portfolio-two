@@ -8,7 +8,7 @@ export default function Navigation() {
   return (
     <Navbar bg="dark" variant="dark">
         <Container>
-          {/* <Navbar.Brand href="#home">Navbar</Navbar.Brand> */}
+          <Navbar.Brand href="#home">Wasim mohammad ~ Junior Dev</Navbar.Brand>
           <Nav className="me-auto">
           <Link className="text-dark" to="/">
               <Nav.Link href='Home'>Home</Nav.Link>
@@ -22,7 +22,6 @@ export default function Navigation() {
             <Link className="text-dark" to="/Resume">
               <Nav.Link href='Resume'>Resume</Nav.Link>
             </Link>
-            
           </Nav>
         </Container>
       </Navbar>

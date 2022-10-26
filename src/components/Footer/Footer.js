@@ -9,29 +9,11 @@ import Col from 'react-bootstrap/Col';
 
 function Footer(){
     return(
-//         <nav className='navbar navbar-expand-lg mt-auto navbar-dark bg-dark'> 
-// <div className='container-fluid'>
-//     <Row xs={1} md={2}>
-       
-//         <div className='github'>
-//         <a href='https://github.com/wasim202'>
-//             <img src={github} alt='GitHub profile'></img>
-//         </a>
-//     </div>
-       
-   
-//     <div className='linkedin'>
-//         <a href='https://www.linkedin.com/in/wasim-mohammad-22a53590/'>
-//             <img src={linkedin} alt='LinkedIn profile'></img>
-//         </a>
-//     </div>
-//     </Row>
-// </div>
-// </nav>
-<nav className="footer navbar navbar-expand-lg mt-auto navbar-dark bg-dark">
-      <div className="container-fluid">
+//<div className="footer navbar navbar-expand-lg mt-auto navbar-dark bg-dark">
+<div className="col-sm-12 d-flex justify-content-center pt-4">
+      {/* <div className="container-fluid"> */}
         <a
-          className="navbar-brand"
+          //className="navbar-brand"
           href="https://github.com/wasim202"
           target="_blank"
         >
@@ -40,7 +22,7 @@ function Footer(){
         </a>
         </a>
         <a
-          className="navbar-brand"
+          //className="navbar-brand"
           href="https://www.linkedin.com/in/wasim-mohammad-22a53590/"
           target="_blank"
         >
@@ -50,7 +32,7 @@ function Footer(){
         </a>
     
       </div>
-    </nav>
+    //</div>
     );
 }
 
