@@ -21,16 +21,16 @@ return (
   <Container>
     <h1 className='m-3'>Contact Me</h1>
   <div className='container d-flex flex-column min vh-100'>
-  <form className="contact-form" onSubmit={sendEmail}>
+  <form className="contact-form was-validated" onSubmit={sendEmail}>
 
 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
 <Form.Label>Name</Form.Label>
-<Form.Control type="input" name="from_name" placeholder="Ex: John Smith" />
+<Form.Control type="input" name="from_name" placeholder="Ex: John Smith" required/>
 </Form.Group>
 
 <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
 <Form.Label>Email</Form.Label>
-<Form.Control type="email" name="reply_to" placeholder="name@example.com" />
+<Form.Control type="email" name="reply_to" placeholder="name@example.com" required />
 </Form.Group>
 
 <Form.Group className="mb-3" controlId="exampleForm.ControlInput3">
@@ -40,7 +40,7 @@ return (
 
 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
 <Form.Label>Message</Form.Label>
-<Form.Control as="textarea" name="message"  rows={3} />
+<Form.Control as="textarea" name="message"  rows={3} required />
 </Form.Group>
 
 <Button variant="primary" type="submit" value="send">

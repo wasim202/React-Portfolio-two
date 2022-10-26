@@ -1,5 +1,6 @@
 import React from 'react';
 import {Card, Container, Row, Col} from 'react-bootstrap';
+import './Portfolio.css'
 import FiveGuys from '../../images/five-guys.png';
 import MovieDB from '../../images/movie-database.png';
 import HomePage from '../../images/quiz.png';
