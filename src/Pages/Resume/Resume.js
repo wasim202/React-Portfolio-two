@@ -14,7 +14,7 @@ export default function Resume() {
       <h1 className=" text-center">Resume</h1>
       <div className='container'>
     <ul className='text-center list-group'>
-     <a href={resume} download="Wasim Mohammad resume"> Download Resume </a>
+     {/* <a href={resume} download="Wasim Mohammad resume"> Download Resume </a> */}
 
      <object className='list-group-item bg-dark' style={style.object} data={resume}></object>
     </ul>

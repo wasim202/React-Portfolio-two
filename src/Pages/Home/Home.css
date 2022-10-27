@@ -1,3 +1,4 @@
+@import "../../utils/colors.css";
 /* body{
     background-color:green;
     background-color: #444444;
@@ -48,3 +49,26 @@
     border-radius:50%;
     padding-top: 50px;
   }
+  .skillsContainer {
+    color: var(--dark3);
+    margin: 4rem;
+    z-index: 1;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .icon {
+    color: var(--dark3);
+    font-size: 3rem;
+    margin: 3rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .welcome {
+      flex-direction: column;
+    }
+  }  

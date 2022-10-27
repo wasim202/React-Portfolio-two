@@ -2,6 +2,19 @@ import React from 'react';
 import {Container, Row} from 'react-bootstrap';
 import './Home.css';
 import profilePic from '../../images/profile-pic.JPG';
+import {
+  SiHtml5,
+  SiBootstrap,
+  SiJavascript,
+  SiMysql,
+  SiMongodb,
+  SiHandlebarsdotjs,
+  SiCss3,
+  SiExpress,
+  SiNodedotjs,
+  SiReact,
+  SiNpm,
+} from "react-icons/si";
 
 export default function Home() {
   return (
@@ -20,6 +33,44 @@ export default function Home() {
         className="m-3 col-6 col-xs-5 col-md-4"
         alt="profile picture"
       ></img> 
+      <div className='skillsContainer'>
+        <div className='icons'>
+        <div className="singleIconDiv">
+            <SiReact className="icon"></SiReact>
+          </div>
+          <div className="singleIconDiv">
+            <SiNodedotjs className="icon"></SiNodedotjs>
+          </div>
+          <div className="singleIconDiv">
+            <SiExpress className="icon"></SiExpress>
+          </div>
+          <div className="singleIconDiv">
+            <SiNpm className="icon"></SiNpm>
+          </div>
+          <div className="singleIconDiv">
+            <SiJavascript className="icon"></SiJavascript>
+          </div>
+          <div className="singleIconDiv">
+            <SiHtml5 className="icon"></SiHtml5>
+          </div>
+          <div className="singleIconDiv">
+            <SiCss3 className="icon"></SiCss3>
+          </div>
+          <div className="singleIconDiv">
+            <SiBootstrap className="icon"></SiBootstrap>
+          </div>
+          <div className="singleIconDiv">
+            <SiHandlebarsdotjs className="icon"></SiHandlebarsdotjs>
+          </div>
+          <div className="singleIconDiv">
+            <SiMysql className="icon"></SiMysql>
+          </div>
+          <div className="singleIconDiv">
+            <SiMongodb className="icon"></SiMongodb>
+          </div>
+        </div>
+      </div>
+          
     </Row>
     </Container>
 
