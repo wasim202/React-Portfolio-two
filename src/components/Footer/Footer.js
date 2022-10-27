@@ -26,7 +26,7 @@ function Footer(){
          <a
           title="LinkedIn Profile"
           target="_blank"
-          href="https://www.linkedin.com/in/becca-roberts/"
+          href="https://www.linkedin.com/in/wasim-mohammad-22a53590/"
           className="iconAnchor"
         >
           <FaLinkedin className="footer-icon" />
