@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
-import github from '../../images/github.png';
-import linkedin from '../../images/linkedin.png';
 import './Footer.css';
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 
 function Footer(){
     return(
