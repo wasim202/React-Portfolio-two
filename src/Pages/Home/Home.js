@@ -25,10 +25,10 @@ export default function Home() {
      <div className="col-md-8">
       <div className="card-body">
     <p className="m-3"  id='main-paragraph'>
-      Hi!! My name is Wasim Mohammd, I have been living in Colorado for more than 12 years and i am enjoying it. I recieved my masters degree in
+      Hi!! My name is Wasim Mohammd, I have been living in Colorado for more than 12 years and I am enjoying it. I recieved my masters degree in
       Information technology in 2012 from Colorado Technical University -
-      Aurora, CO. I like to create web pages from scratch and after seven years of not practicing any programming languages, i finally managed to successfully complete a coding bootcamp from the University of Denver and i got skilled in many cutting edge technologies like HTML, CSS, JAVASCRIPT, EXPRESS.JS, NODE.JS, MYSQL, MONGODB and much more.
-      Therefore, i have some cool projects in my portfolio.
+      Aurora, CO. I like to create web pages from scratch and after seven years of not practicing any programming languages, I finally managed to successfully complete a coding bootcamp from the University of Denver and I got skilled in many cutting edge technologies like HTML, CSS, JAVASCRIPT, EXPRESS.JS, NODE.JS, MYSQL, MONGODB and much more.
+      Therefore, I have some cool projects in my portfolio.
       </p>
       </div>
       </div>
