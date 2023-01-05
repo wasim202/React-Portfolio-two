@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/React-Portfolio-two/static/css/main.84aa1c26.css",
-    "main.js": "/React-Portfolio-two/static/js/main.c7e348c6.js",
+    "main.js": "/React-Portfolio-two/static/js/main.03f93a55.js",
     "static/media/profile-pic.JPG": "/React-Portfolio-two/static/media/profile-pic.b32284f36ed4339c3d84.JPG",
     "static/media/movie-database.png": "/React-Portfolio-two/static/media/movie-database.6a80ae98e533b4464812.png",
     "static/media/Insomnia.png": "/React-Portfolio-two/static/media/Insomnia.e606b0b80a5fb4869718.png",
-    "static/media/Wasim-resume.pdf": "/React-Portfolio-two/static/media/Wasim-resume.2ea98832b8dd074b7c7c.pdf",
+    "static/media/updatedResume1.pdf": "/React-Portfolio-two/static/media/updatedResume1.2bb2298c5a94b010e08d.pdf",
     "static/media/stud-light.png": "/React-Portfolio-two/static/media/stud-light.19094971b0b36122fbd0.png",
     "static/media/resume.jpeg": "/React-Portfolio-two/static/media/resume.d069327a28e430582422.jpeg",
     "static/media/five-guys.png": "/React-Portfolio-two/static/media/five-guys.75ae6ec588e2009493b4.png",
@@ -13,10 +13,10 @@
     "static/media/view-tables.png": "/React-Portfolio-two/static/media/view-tables.a896d7cad6c303088a60.png",
     "index.html": "/React-Portfolio-two/index.html",
     "main.84aa1c26.css.map": "/React-Portfolio-two/static/css/main.84aa1c26.css.map",
-    "main.c7e348c6.js.map": "/React-Portfolio-two/static/js/main.c7e348c6.js.map"
+    "main.03f93a55.js.map": "/React-Portfolio-two/static/js/main.03f93a55.js.map"
   },
   "entrypoints": [
     "static/css/main.84aa1c26.css",
-    "static/js/main.c7e348c6.js"
+    "static/js/main.03f93a55.js"
   ]
 }
