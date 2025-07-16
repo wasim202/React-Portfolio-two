@@ -1,6 +1,6 @@
 import React from 'react'
 import './Resume.css'
-import resume from './Wasim-resume.pdf';
+import resume from './Wasim_Mohammad_MyResume (1).pdf';
 import resumePic from '../../images/resume.jpeg'
 
 
